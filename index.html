@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Say NO to Online Bullying</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-animation"></div>
+
+  <header>
+    <h1>Say NO to Online Bullying</h1>
+    <button id="themeToggle">🌙 Toggle Theme</button>
+    <nav>
+      <ul>
+        <li><a href="#what">What</a></li>
+        <li><a href="#why">Why</a></li>
+        <li><a href="#prevent">Prevent</a></li>
+        <li><a href="#opinion">My View</a></li>
+        <li><a href="#feedback">Your Opinion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="what">
+    <h2>What is Online Bullying?</h2>
+    <div class="card">
+      <img src="onlinebullying1.jpg" alt="What is online bullying" />
+      <p>Online bullying or cyberbullying is the use of digital platforms such as social media, messaging apps, and websites to harass, threaten, or embarrass someone. It includes spreading rumors, sending hateful messages, or sharing personal photos without permission.</p>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2>Why Does It Happen?</h2>
+    <div class="card">
+      <img src="onlinebullying2.jpg" alt="Why bullying happens" />
+      <p>Online bullying often happens due to peer pressure, jealousy, revenge, or boredom. The anonymity of the internet gives some people courage to act cruelly without facing immediate consequences.</p>
+    </div>
+  </section>
+
+  <section id="prevent">
+    <h2>How to Prevent It?</h2>
+    <div class="card">
+        <img src="onlinebullying3.jpg" alt="Stop Bullying">
+      <p>
+        ✅ Always be kind and respectful online.<br />
+        ✅ Report and block the lies immediately.<br />
+        ✅ Talk to a trusted adult or friend if you're being bullied.<br />
+        ✅ Don't share private info online.<br />
+        ✅ Raise awareness among your friends about the impact of online bullying.
+      </p>
+    </div>
+  </section>
+
+  <section id="opinion">
+    <h2>My Opinion</h2>
+    <p>Online bullying is a serious problem that silently hurts many people, especially teenagers. I believe every school should teach students about digital responsibility. If we create awareness and show more kindness online, we can stop this negativity and make the internet a safer space for everyone.</p>
+  </section>
+
+  <section id="feedback">
+    <h2>Share Your Opinion</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <textarea id="message" placeholder="Write your opinion here..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="response"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Created by Shruthi | All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
